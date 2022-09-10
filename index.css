@@ -1,0 +1,530 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+body{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rect{
+    width: 100%;
+    overflow-x: hidden;
+    top: 0px;
+    height: 60px;
+    position: fixed;
+    background-color:#000000d3;
+    z-index: 5;
+    opacity: 0%;
+}
+
+
+.background{
+    height:100%;
+    width:auto;
+    position:fixed;
+    opacity: 90%;
+}
+
+.left {
+
+    right: none;
+    left: 0px;
+
+}
+
+.right {
+
+    right: 0px;
+    left: none;
+
+}
+
+.rightbox{
+    width: 36.5%;
+    height: auto;
+    right: 3.5%;
+    position: relative;
+    float: right;
+}
+.leftbox{
+    width: 49.5%;
+    height: auto;
+    left: 3.5%;
+    position: relative;
+    float: left;
+}
+
+.Container {
+
+    margin: 0px;
+    padding-top: 70px;
+    height: 100%;
+    
+    width: 18vw;
+    position: fixed;
+    color:aliceblue;
+
+    z-index: 7;
+
+}
+
+.midContainer {
+
+    display: block;
+    height: auto;
+    width: 70%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+    overflow-x: visible;
+
+}
+
+/* font size big (1) to small (4)*/
+.Head1{
+
+    font-size: 25px;
+    font-family: 'Karla', sans-serif;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.Head2{
+
+    font-size:18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.Head3{
+
+    font-size: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+
+}
+
+.Head4{
+
+    font-size: min(max(2vw,12px),18px);
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.8;
+
+}
+
+.Head5{
+
+    font-size: min(max(2vw,9.5px),18px);
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.8;
+
+}
+
+/* components */ 
+
+menu{
+    position: fixed;
+    z-index: 7;
+}
+
+menu a{
+    display: block;
+    width: 100px;
+    height: 20px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    position: absolute;
+}
+
+menu a:link{
+    text-decoration: none;
+} 
+menu a:visited{
+    text-decoration: none;
+}
+menu a:hover{
+    text-decoration: none;
+}
+menu a:active{
+    text-decoration: none;
+}
+
+menu a:hover{
+    color: #85745a;
+    opacity: 100%;
+}
+
+#aboutmenu{
+    top: 95px;
+    right: 85vw;
+    position: fixed;
+}
+
+#researchmenu{
+    top: 135px;
+    right: 85vw;
+    position: fixed;
+}
+
+#othermenu{
+    top: 175px;
+    right: 85vw;
+    position: fixed;
+}
+
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    min-height: 700px;
+    position: relative;
+}
+
+.inner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    min-height: 700px;
+    position: relative;
+    padding: 3.5% 3.5% 3.5% 3.5%;
+    background-color: rgba(255, 255, 255, 0.856);
+    margin-bottom: 200px;
+    box-shadow: 5px 5px 15px 15px rgba(94, 89, 89, 0.144);
+}
+
+.inner a:link{
+    color: rgb(69, 133, 170);
+    text-decoration: none;
+} 
+.inner a:visited{
+    color: #85745a;
+    text-decoration: none;
+}
+.inner a:hover{
+    color: #17240efa;
+    text-decoration: none;
+}
+.inner a:active{
+    text-decoration: none;
+}
+
+.picborder{
+    display: block;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 320px;
+    max-height: 320px;
+    width: 18vw;
+    height: 18vw;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    z-index: 4;
+}
+
+.wordbox{
+    position: relative;
+    width: 93%;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    height: auto;
+}
+
+.sidePanel{
+    border-style: solid;
+    border-color:#c2ccd5d7;
+    border-width: 3px;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+.gap {
+    min-height: 80px;
+    width: 100%;
+    position: relative;
+    opacity:0%;
+    z-index: 0;
+}
+
+
+.footr{
+    width: 100%;
+    overflow-x: hidden;
+    height: auto;
+    margin-bottom: 30px;
+    position: relative;
+    background-color:#a7b8bf00;
+    z-index: 5;
+    color: #e7dfd4;
+    text-align: center;
+}
+
+
+/* ------------------------------------------------
+
+
+RESPONSIVE LAYOUT
+
+
+
+--------------------------------------------------*/
+
+@media only screen and (max-width: 1000px) {
+
+
+    .rect{
+        opacity: 100%;
+        z-index: 5;
+    }
+
+    .rightbox{
+        display: block;
+        float: none;
+        width: 93%;
+        left: 0px;
+        right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .leftbox{
+        float: left;
+        width: 93%;
+    }
+    
+    .Container {
+        margin: 0px;
+        padding-top: 70px;
+        height: 100%;
+        background-color: #17240e00;
+        width: 8vw;
+        position: fixed;
+        color:aliceblue;
+        z-index: 5;
+        overflow: visible;
+    }
+
+    .midContainer {
+
+        width: 80%;
+        
+    
+    }
+
+    /* components */ 
+
+    menu a{
+        display: block;
+        width: 70px;
+        color:white;
+        text-align: center;
+        position: absolute;
+        font-size: min(0.5vw, 20px);
+        z-index: 7;
+    }
+
+    menu a:link{
+        text-decoration: none;
+    } 
+    menu a:visited{
+        text-decoration: none;
+    }
+    menu a:hover{
+        text-decoration: none;
+    }
+    menu a:active{
+        text-decoration: none;
+    }
+    
+    menu a:hover{
+        color: #85745a;
+        opacity: 100%;
+    }
+
+    #aboutmenu{
+        top: 10px;
+        left: 14vw;
+        position: fixed;
+    }
+
+    #researchmenu{
+        top: 10px;
+        left: 24vw;
+        position: fixed;
+    }
+    
+    #othermenu{
+        top: 10px;
+        left: 34vw;
+        position: fixed;
+    }
+    
+    
+    .inner{
+        padding: 3.5% 3.5% 3.5% 3.5%;
+    }
+
+    .picborder{
+        display: block;
+        min-width: 200px;
+        min-height: 200px;
+        max-width: 320px;
+        max-height: 320px;
+        width: 26vw;
+        height: 26vw;
+        overflow: hidden;
+        border-radius: 50%;
+        position:absolute;
+        right: 3.5%;
+    }
+    
+    .wordbox{
+        display: block;
+        position: relative;
+        height: auto;
+    }
+
+    .sidePanel{
+        border-style: solid;
+        border-color:#c2ccd5d7;
+        border-width: 3px;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        max-height: 320px;
+        min-height: 220px;
+        height: 26vw;
+    }
+
+    .gap {
+        min-height: 120px;
+    }
+
+
+}
+
+
+
+/*-----------------------------------------------------
+
+Mobile Responsive
+
+-----------------------------------------------------*/
+
+@media only screen and (max-width: 760px) {
+
+
+    .rect{
+        opacity: 0%;
+    }
+
+    .Container {
+        background-color: #17240efa;
+        width: 0vw;
+    }
+
+    .midContainer {
+
+        width: 80%;
+        
+    
+    }
+
+    .picborder{
+        left: 0px;
+        right: 0px;
+        position: relative;
+        height: 40vw;
+        width: 40vw;
+        margin-top: 2vw;
+        margin-left: auto;
+        margin-right: auto;
+        max-height: 200px;
+        max-width: 200px;
+    }
+
+    .wordbox{
+        position: relative;
+    }
+    
+
+    .sidePanel{
+        border-style: solid;
+        border-color:#c2ccd5d7;
+        border-width: 3px;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        max-height: 500px;
+        min-height: 420px;
+        height: 60vw;
+        max-width: 80vw;
+    }
+
+
+    menu a{
+        display: block;
+        width: 8vw;
+        padding: 10px;
+        margin: 3px;
+        color:#17240efa;
+        text-align: right;
+        position: absolute;
+        margin-right: 1px;
+        margin-left: auto;
+        background-color: rgba(255, 255, 255, 0);
+        padding-top: 30px;
+        padding-bottom: 30px;
+        left: -15px;
+        font-size: min(0.5vw, 20px);
+        opacity: 0%;
+    }
+
+    menu a:link{
+        text-decoration: none;
+    } 
+    menu a:visited{
+        text-decoration: none;
+    }
+    menu a:hover{
+        text-decoration: none;
+    }
+    menu a:active{
+        text-decoration: none;
+    }
+    
+    menu a:hover{
+        color: #85745a;
+        opacity: 0%;
+    }
+
+    .gap{
+        min-height: 30px;
+        height: 30px;
+        width: 100%;
+    }
+
+    .inner{
+        margin-bottom: 40px;
+    }
+
+
+}
