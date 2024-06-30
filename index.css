@@ -110,9 +110,10 @@ body{
 
 .Head3{
 
-    font-size: 15px;
+    font-size: 21px;
     margin-top: 3px;
     margin-bottom: 3px;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -146,7 +147,7 @@ menu{
 menu a{
     display: block;
     width: 100px;
-    height: 20px;
+    height: 30px;
     padding: 10px;
     color: #323f3c;
     text-align: center;
@@ -178,13 +179,13 @@ menu a:hover{
 }
 
 #researchmenu{
-    top: 135px;
+    top: 155px;
     right: 85vw;
     position: fixed;
 }
 
 #othermenu{
-    top: 175px;
+    top: 215px;
     right: 85vw;
     position: fixed;
 }
