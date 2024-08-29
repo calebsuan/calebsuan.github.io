@@ -136,6 +136,14 @@ body{
 
 }
 
+.Head6{
+
+    font-size: 24px;
+    font-family: 'Karla', sans-serif;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
 /* components */ 
 
 menu{
@@ -183,12 +191,17 @@ menu a:hover{
     position: fixed;
 }
 
-#othermenu{
+#teachingmenu{
     top: 215px;
     right: 85vw;
     position: fixed;
 }
 
+#othermenu{
+    top: 275px;
+    right: 85vw;
+    position: fixed;
+}
 
 .center{
     margin-left: auto;
@@ -335,7 +348,7 @@ RESPONSIVE LAYOUT
 
     menu a{
         display: block;
-        width: 70px;
+        width: 85px;
         color: white;
         text-align: center;
         position: absolute;
@@ -369,16 +382,21 @@ RESPONSIVE LAYOUT
 
     #researchmenu{
         top: 10px;
-        left: 24vw;
+        left: 28vw;
         position: fixed;
     }
     
+    #teachingmenu{
+        top: 10px;
+        left: 42vw;
+        position: fixed;
+    }
+
     #othermenu{
         top: 10px;
-        left: 34vw;
+        left: 56vw;
         position: fixed;
     }
-    
     
     .inner{
         padding: 3.5% 3.5% 3.5% 3.5%;
