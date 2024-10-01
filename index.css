@@ -94,7 +94,7 @@ body{
 /* font size big (1) to small (4)*/
 .Head1{
 
-    font-size: 27px;
+    font-size: 24px;
     font-family: 'Karla', sans-serif;
     margin-top: 8px;
     margin-bottom: 8px;
@@ -197,8 +197,14 @@ menu a:hover{
     position: fixed;
 }
 
-#othermenu{
+#seminarsmenu{
     top: 275px;
+    right: 85vw;
+    position: fixed;
+}
+
+#othermenu{
+    top: 335px;
     right: 85vw;
     position: fixed;
 }
@@ -305,6 +311,14 @@ RESPONSIVE LAYOUT
 
 @media only screen and (max-width: 1000px) {
 
+    .Head1{
+
+        font-size: 24px;
+        font-family: 'Karla', sans-serif;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
 
     .rect{
         opacity: 100%;
@@ -376,25 +390,31 @@ RESPONSIVE LAYOUT
 
     #aboutmenu{
         top: 10px;
-        left: 14vw;
+        left: 10vw;
         position: fixed;
     }
 
     #researchmenu{
         top: 10px;
-        left: 28vw;
+        left: 26vw;
         position: fixed;
     }
     
     #teachingmenu{
         top: 10px;
-        left: 42vw;
+        left: 42.75vw;
+        position: fixed;
+    }
+
+    #seminarsmenu{
+        top: 10px;
+        right: 26vw;
         position: fixed;
     }
 
     #othermenu{
         top: 10px;
-        left: 56vw;
+        right: 10vw;
         position: fixed;
     }
     
