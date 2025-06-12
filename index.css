@@ -15,6 +15,30 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+#arXiv {
+    background-image: url(arXiv.svg);
+}
+
+.fa-envelope {
+    vertical-align: middle;
+  }
+
+.fa-linkedin-square {
+    vertical-align: middle;
+  }
+
+.fa-file-pdf-o {
+    vertical-align: middle;
+  }
+
+.fa-video-camera {
+    vertical-align: middle;
+  }
+
+.fa-book {
+    vertical-align: middle;
+  }
+
 .rect{
     width: 100%;
     overflow-x: hidden;
