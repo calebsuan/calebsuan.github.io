@@ -23,6 +23,10 @@ body{
     vertical-align: middle;
   }
 
+.fa-linkedin-in {
+    vertical-align: middle;
+  }
+
 .fa-file-pdf-o {
     vertical-align: middle;
   }
@@ -32,6 +36,18 @@ body{
   }
 
 .fa-book {
+    vertical-align: middle;
+  }
+
+.fa-google-scholar {
+    vertical-align: middle;
+  }
+
+.fa-crow{
+    vertical-align: middle;
+  }
+
+.fa-orcid{
     vertical-align: middle;
   }
 
