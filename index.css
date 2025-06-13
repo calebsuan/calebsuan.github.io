@@ -15,10 +15,6 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-#arXiv {
-    background-image: url(arXiv.svg);
-}
-
 .fa-envelope {
     vertical-align: middle;
   }
