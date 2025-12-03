@@ -250,6 +250,13 @@ menu a:hover{
     opacity: 0.65;
 }
 
+#linksmenu{
+    top: 278px;
+    right: 87vw;
+    position: fixed;
+    opacity: 0.65;
+}
+
 .center{
     margin-left: auto;
     margin-right: auto;
